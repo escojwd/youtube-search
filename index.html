@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+
+      <span class="close">&times;</span>
+      <iframe id="iframe" width="560" height="315" src=""
+       frameborder="0" 
+       allowscriptaccess="always"
+       allow="accelerometer; autoplay;clipboard-write; encrypted-media;gyroscope; picture-in-picture" 
+       allowfullscreen></iframe>
+    </div>
+  
+  </div>
+    <div>
+        <input id="search" type="search" name="search" placeholder="Search videos, Type here">
+        <button id="search-button">Search</button>
+    </div>
+    <div class="videos-wrapper">
+        <ul id="videos-list"></ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
